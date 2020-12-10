@@ -11,7 +11,25 @@
 
     <div class="container text-center">Lorem ipsum dolor sit amet.</div>
 
+<div class="container">
+    <h2 class="currency__heading">Valyuta kursi</h2>
+    <form class="currency__form" action="https://echo.htmlacademy.ru" method="POST">
 
+      <input class="currency__summa" type="text" placeholder="Summa" name="summa" aria-label="summa" required>
+
+      <select class="currency__select" name="currency-select" aria-label="currency select">
+        <option class="currency__option" value="10440">USD</option>
+        <option class="currency__option" value="12641">Euro</option>
+        <option class="currency__option" value="141">Ruble</option>
+        <option class="currency__option" value="14056,09">Pound</option>
+        <option class="currency__option" value="1334,91">Lira</option>
+      </select>
+
+      <div class="currency__sum" style="height: 50px; width: 100px; background-color: aqua;"></div>
+
+      <button type="submit">O'girish</button>
+    </form>
+  </div>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
